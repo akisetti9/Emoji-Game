@@ -1,0 +1,70 @@
+/* Write your code here. */
+.navbar {
+  background-color: #ffffff33;
+  height: auto;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 10px;
+  padding-right: 50px;
+  padding-left: 50px;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 767px) {
+  .navbar {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+.navbar-logo {
+  max-width: 1500px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.logo {
+  text-align: center;
+  width: 48px;
+  height: 48px;
+  display: contents;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+@media screen and (max-width: 767px) {
+  .logo {
+    width: 24px;
+    height: 24px;
+  }
+}
+.logo-title {
+  margin: 0px;
+  font-size: 24px;
+}
+@media screen and (max-width: 767px) {
+  .logo-title {
+    font-size: 16px;
+  }
+}
+.navbar-score {
+  max-width: 200px;
+  flex-grow: 1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.scores {
+  margin: 0px;
+}
+
+.scores-disable {
+  visibility: hidden;
+}
